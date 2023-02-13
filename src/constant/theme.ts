@@ -13,11 +13,14 @@ const Theme = {
     // 虚线配置
     dashLine: {
         solidPart:2, //虚线实线部分长度
-        emptyPart:5 //虚线空白间隔部分长度
+        emptyPart:5, //虚线空白间隔部分长度
+        dashWidth:1 //虚线宽度
     },
-    // 道路边框宽度
+    // 道路配置
     road:{
-        edgeWidth:10,
+        edgeWidth:10, //道路边界宽度
+        splitWidth:2, //道路双向道分界线宽度
+        laneSplitWidth:1 //
     }
 
 }
